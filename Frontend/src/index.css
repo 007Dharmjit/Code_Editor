@@ -11,7 +11,8 @@ html , body{
     width: 100%;
 }
 body{
-    color: white;
+    color: white; 
+    background-color: #121212;
 }
 .files h3{
     border: 2px;
