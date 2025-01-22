@@ -28,9 +28,8 @@ const SignupForm = () => {
         progress: undefined,
         theme: "dark",
       });
-      setTimeout(() => {
         navigate("/Loginform");
-      }, 2000); // Redirect after 2 seconds
+
     } catch (error) {
       // Handle specific error responses
       if (error.response) {

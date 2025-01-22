@@ -25,3 +25,18 @@ body{
     background: #262626;
 }
 
+@keyframes rotateLoader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating-loader {
+    animation: rotateLoader 2s linear infinite;
+  }
+  
+
+   

@@ -28,9 +28,8 @@ const LoginForm = () => {
             progress: undefined,
             theme: "dark",
           });
-          setTimeout(() => {
-            navigate("/"); // Navigate to the home page
-          }, 1500);
+          navigate("/"); // Navigate to the home page
+          
         } else if (res.status === 404) {
           toast.error("Something went wrong. Please try again.", {
             position: "top-center",
